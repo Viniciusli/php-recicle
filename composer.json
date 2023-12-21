@@ -1,0 +1,19 @@
+{
+    "name": "phplearning/psr4",
+    "description": "psr-4 learning",
+    "authors": [
+        {
+            "name": "vinicius lee",
+            "email": "vinilee34@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "PSR4\\": "src/psr4"
+        }
+    }
+}
